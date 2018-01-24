@@ -1,5 +1,6 @@
 import random
 
+#Uses text file with random words in it
 secret_word = random.choice(open('words.txt').read().split()).strip()
 x = ['-' for _ in secret_word]
 lives = 15
